@@ -1,6 +1,5 @@
 package com.company.sporty.controller;
 
-
 import com.company.sporty.entity.Login;
 import com.company.sporty.service.LoginService;
 import jakarta.servlet.http.HttpServletRequest;

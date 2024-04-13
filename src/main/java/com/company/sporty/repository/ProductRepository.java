@@ -10,6 +10,7 @@ import java.util.List;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Integer> {
+
     @Query("select p.name, p.category, p.price, o.id, o.ldt, o.username " +
             "from Product p, Orders o " +
             "where p.id = o.pid")

@@ -76,7 +76,7 @@ public class ProductService {
     }
 
     public List<Object[]> getUserOrderDetails(String username) {
-        return productRepository.getUserOrderDetails(username);		// custom methods
+        return productRepository.getUserOrderDetails(username);
     }
 
 }

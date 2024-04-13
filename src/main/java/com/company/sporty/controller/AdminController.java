@@ -3,7 +3,6 @@ package com.company.sporty.controller;
 import com.company.sporty.entity.Login;
 import com.company.sporty.entity.LoginRegistry;
 import com.company.sporty.entity.Product;
-import com.company.sporty.repository.LoginRegistryRepository;
 import com.company.sporty.service.LoginRegistryService;
 import com.company.sporty.service.LoginService;
 import com.company.sporty.service.ProductService;
@@ -12,7 +11,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
